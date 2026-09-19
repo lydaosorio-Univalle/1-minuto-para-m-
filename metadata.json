@@ -1,0 +1,7 @@
+{
+  "name": "1 Minuto Para Mí",
+  "description": "Un respiro de 60 segundos diseñado para el personal de salud en UCI, urgencias y turnos quirúrgicos. Sin datos, sin evaluaciones: solo cuida al que cuida.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
