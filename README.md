@@ -79,6 +79,22 @@ En solo 60 segundos, ofrece micro-pausas guiadas basadas en fisiología del sist
 
 ---
 
+## 🌐 Despliegue en Producción
+
+### Opción 1: GitHub Pages (Automatizado con GitHub Actions)
+Este repositorio ya incluye el flujo configurado en `.github/workflows/deploy.yml`:
+1. En tu repositorio en GitHub, ve a **Settings** (Configuración) > **Pages**.
+2. En la sección **Build and deployment** > **Source**, selecciona **GitHub Actions**.
+3. Haz un `git push` a la rama `main`: la aplicación se compilará y desplegará automáticamente con su enlace público en GitHub Pages.
+
+### Opción 2: Vercel o Netlify
+- **Framework Preset**: Vite
+- **Build Command**: `npm run build`
+- **Output Directory**: `dist`
+- No requiere variables de entorno adicionales.
+
+---
+
 ## 📋 Scripts Disponibles
 
 | Comando | Descripción |
